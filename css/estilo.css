@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: deeppink;
+    color:aqua;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;  
+}
+
+h1 strong{
+    color: crimson;
+}
+
+ul{
+    list-style: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;  
+}
+
+.header{
+   background: rgb(6, 202, 6);
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   height: 90px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: purple;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 82px;
+    margin: 5px;
+
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal{
+  background: purple;
+  background-image: url(../img/mascarilla.jpeg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  padding: 100px;
+}
+
+.principal img{
+    width: 603px;
+    border-radius: 300px ;
+    border: 5px solid black;
+}
+
+.principal button {
+    width: 250px;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px ;
+    cursor: pointer;
+    margin-top: 10px ;
+}
+
+.somos{
+    background: palevioletred;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+}
+
+.somos h2{
+    color: purple ;
+    margin-bottom: 10px;
+}
+.dulces{
+    background:yellow;
+    text-align: center;
+}
+
+.somos p{
+    margin-bottom: 20px;
+}
+/*
+.padre{
+    background: palevioletred;
+    display: flex;
+    flex-wrap:nowrap ;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo{
+    background: plum;
+    width: 200px;
+    height: 200px;
+    border:2px solid purple;
+    font-size: 20px;
+    margin: 10pxs;
+    display: flex;
+
+}
+*/
+.padre{
+    
+}
+
+.natural-beauty img{
+    justify-content: center;
+    width: 30%;
+}
+.beauty{
+    background: rgb(201, 86, 157);
+    text-align: center;
+}
+.container1{
+    display: flex;
+    height: 5px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.container2{
+    background: darkgreen;
+}
+.col1-container1{
+    width: 400px;
+  
+
+}
+.col2-container1{
+    width: 200px;
+
+}
+.col3-container1{
+    width: 300px;
+
+}
+.row1-contacto img{
+    width: 35px;
+    height: 25px;
+}
+.row2-contacto img{
+width: 30px;
+height: 25px;
+}
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
