@@ -3,8 +3,8 @@
 }
 
 body{
-    background: deeppink;
-    color:aqua;
+    background: rgb(143, 199, 59);
+    color:black;
     margin: 0px;
 }
 
@@ -14,7 +14,7 @@ h1{
 }
 
 h1 strong{
-    color: crimson;
+    color: black;
 }
 
 ul{
@@ -60,7 +60,7 @@ ul{
 
 .principal{
   background: purple;
-  background-image: url(../img/mascarilla.jpeg);
+  background-image: url(../img/fondo2.png);
   background-size: cover;
   background-repeat:no-repeat;
   text-align: center;
@@ -70,13 +70,12 @@ ul{
 .principal img{
     width: 603px;
     border-radius: 300px ;
-    border: 5px solid black;
 }
 
 .principal button {
     width: 250px;
     height: 40px;
-    background-color: greenyellow;
+    background-color: rgb(89, 211, 89);
     border-radius: 24px;
     border: none;
     font-size: 20px ;
@@ -85,7 +84,7 @@ ul{
 }
 
 .somos{
-    background: palevioletred;
+    background: green;
     text-align: center;
     padding: 50px;
     font-family: 'Chilanka', cursive;
@@ -93,7 +92,7 @@ ul{
 }
 
 .somos h2{
-    color: purple ;
+    color: gainsboro ;
     margin-bottom: 10px;
 }
 .dulces{
@@ -134,8 +133,20 @@ ul{
     width: 30%;
 }
 .beauty{
-    background: rgb(201, 86, 157);
+    background-image: url(../img/screenshot.png);
+    height: 500px;
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.beauty h2{
+    padding-top: 30px;
+}
+.beauty p{
+    padding-top: 15px;
+}
+.jenny{
+    text-align: left;
 }
 .container1{
     display: flex;
@@ -152,7 +163,7 @@ ul{
 
 }
 .col2-container1{
-    width: 200px;
+    width: 300px;
 
 }
 .col3-container1{
